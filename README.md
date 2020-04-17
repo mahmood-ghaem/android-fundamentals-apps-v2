@@ -48,6 +48,21 @@ if you don't already have it.
 2. Import the sample into Android Studio.
 3. Build and run the sample.
 
+Sample's Picture
+---------------
+
+AppWithSettings
+
+ > This app is based on the Basic Activity template and provides an options menu
+ > with the Settings option. The user clicks Settings to show the Settings
+ > activity and to change the setting. The app shows a Toast message showing the
+ > value of the setting.
+
+<img hight="400"  alt="Android Developer Fundamentals (Version 2)" src="./AppWithSettings/screenshot.gif" />
+
+
+
+
 License
 -------
 
