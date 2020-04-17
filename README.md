@@ -60,6 +60,36 @@ AppWithSettings
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./AppWithSettings/screenshot.gif" />
 
+ContextMenuScrollingText
+
+ > This app displays a scrollable TextView (a magazine article).
+ > It includes a context menu with choices for acting on
+ > the article (Edit, Share, Delete).
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./ContextMenuScrollingText/screenshot.gif" />
+
+DialogForAlert
+
+ > This app shows a button to trigger a standard alert dialog.
+
+ <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./DialogForAlert/screenshot.gif" />
+
+ DroidCafe
+  - DroidCafeChallenge
+  - DroidCafeInput
+  - DroidCafeOptions
+  - DroidCafeOptionsUp
+  - DroidCafeWithSettings
+  - DroidCafeWithSettingsChallenge
+
+ > This app demonstrates images used as buttons and a floating action button for
+ > an intent to launch a second activity. The app lets a user tap an image to
+ > make a choice. The app displays a Toast showing the user’s choice, and sends
+ > the choice as data with an intent to launch the second activity. This version
+ > includes options in the options menu, in which some of the options appear as
+ > icons in the app bar, and also includes the Up button.
+
+ <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./DroidCafeWithSettingsChallenge/screenshot.gif" />
 
 
 
