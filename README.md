@@ -133,9 +133,80 @@ Sample's Picture
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./ImplicitIntents/screenshot.gif" />
 
+### KeyboardDialPhone
 
+ > This app accepts a phone number and sends implicit intent to dial the number.
 
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./KeyboardDialPhone/screenshot.gif" />
 
+### MaterialMe
+- MaterialMe-Resource
+
+ > Main Activity for the Material Me app, a mock sports news application.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./MaterialMe/screenshot.gif" />
+
+### NavDrawerExperiment
+
+ > This app sets up a navigation drawer with the following choices: Import, Gallery,
+ > Slideshow, Tools, Share, and Send. Choosing any choice closes the navigation drawer
+ > and displays a toast message showing which choice was selected.
+ > This app was created using the Navigation Drawer Activity template.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./NavDrawerExperiment/screenshot.gif" />
+
+### NotificationScheduler
+
+ > The Service that JobScheduler runs once the conditions are met.
+ > In this case it posts a notification.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./NotificationScheduler/screenshot.gif" />
+
+### NotifyMe
+
+ > MainActivity for the Notify Me! app. Contains three buttons that deliver,
+ > update, and cancel notification.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./NotifyMe/screenshot.gif" />
+
+### PhoneNumberSpinnerEspresso
+
+ > This app shows a spinner right next to a phone number field. The spinner lets
+ > the user choose the type of phone number: Home, Work, Mobile, and Other.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./PhoneNumberSpinnerEspresso/screenshot.gif" />
+
+### 
+- 
+- 
+
+ > 
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+
+### 
+- 
+- 
+
+ > 
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+
+### 
+- 
+- 
+
+ > 
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+
+### 
+- 
+- 
+
+ > 
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
 
 
 
