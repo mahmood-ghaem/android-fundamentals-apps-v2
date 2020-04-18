@@ -51,7 +51,7 @@ if you don't already have it.
 Sample's Picture
 ---------------
 
-AppWithSettings
+# AppWithSettings
 
  > This app is based on the Basic Activity template and provides an options menu
  > with the Settings option. The user clicks Settings to show the Settings
@@ -60,7 +60,7 @@ AppWithSettings
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./AppWithSettings/screenshot.gif" />
 
-ContextMenuScrollingText
+## ContextMenuScrollingText
 
  > This app displays a scrollable TextView (a magazine article).
  > It includes a context menu with choices for acting on
@@ -68,7 +68,7 @@ ContextMenuScrollingText
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./ContextMenuScrollingText/screenshot.gif" />
 
-DialogForAlert
+### DialogForAlert
 
  > This app shows a button to trigger a standard alert dialog.
 
