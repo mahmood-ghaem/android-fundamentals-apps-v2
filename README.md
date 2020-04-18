@@ -77,12 +77,12 @@ Sample's Picture
  <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./DialogForAlert/screenshot.gif" />
 
  ### DroidCafe
-	 DroidCafeChallenge
-	 DroidCafeInput
-	 DroidCafeOptions
-	 DroidCafeOptionsUp
-	 DroidCafeWithSettings
-	 DroidCafeWithSettingsChallenge
+- DroidCafeChallenge
+- DroidCafeInput
+- DroidCafeOptions
+- DroidCafeOptionsUp
+- DroidCafeWithSettings
+- DroidCafeWithSettingsChallenge
 
  > This app demonstrates images used as buttons and a floating action button for
  > an intent to launch a second activity. The app lets a user tap an image to
