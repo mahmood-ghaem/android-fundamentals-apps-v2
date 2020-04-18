@@ -114,8 +114,8 @@ Sample's Picture
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./HelloSharedPrefs/screenshot.gif" />
 
 ### HelloToastChallenge2
-	- HelloToast
-	- HelloToastChallenge
+- HelloToast
+- HelloToastChallenge
 
  > Displays two Buttons and a TextView.
  > - Pressing the TOAST button shows a Toast.
@@ -124,7 +124,7 @@ Sample's Picture
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./HelloToastChallenge2/screenshot.gif" />
 
 ### ImplicitIntents
-	- ImplicitIntentsReceiver
+- ImplicitIntentsReceiver
 
  > The ImplicitIntents app contains three buttons for sending implicit intents:
  > - Open a URL in a browser
