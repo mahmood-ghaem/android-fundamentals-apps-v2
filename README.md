@@ -51,6 +51,7 @@ if you don't already have it.
 Sample's Picture
 ---------------
 
+
 ### AppWithSettings
 
  > This app is based on the Basic Activity template and provides an options menu
@@ -60,6 +61,7 @@ Sample's Picture
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./AppWithSettings/screenshot.gif" />
 
+
 ### ContextMenuScrollingText
 
  > This app displays a scrollable TextView (a magazine article).
@@ -68,7 +70,7 @@ Sample's Picture
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./ContextMenuScrollingText/screenshot.gif" />
 
-DialogForAlert
+### DialogForAlert
 
  > This app shows a button to trigger a standard alert dialog.
 
