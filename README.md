@@ -51,7 +51,7 @@ if you don't already have it.
 Sample's Picture
 ---------------
 
-AppWithSettings
+### AppWithSettings
 
  > This app is based on the Basic Activity template and provides an options menu
  > with the Settings option. The user clicks Settings to show the Settings
@@ -60,7 +60,7 @@ AppWithSettings
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./AppWithSettings/screenshot.gif" />
 
-ContextMenuScrollingText
+### ContextMenuScrollingText
 
  > This app displays a scrollable TextView (a magazine article).
  > It includes a context menu with choices for acting on
@@ -74,13 +74,13 @@ DialogForAlert
 
  <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./DialogForAlert/screenshot.gif" />
 
- DroidCafe
-  - DroidCafeChallenge
-  - DroidCafeInput
-  - DroidCafeOptions
-  - DroidCafeOptionsUp
-  - DroidCafeWithSettings
-  - DroidCafeWithSettingsChallenge
+ ### DroidCafe
+	- DroidCafeChallenge
+	- DroidCafeInput
+	- DroidCafeOptions
+	- DroidCafeOptionsUp
+	- DroidCafeWithSettings
+	- DroidCafeWithSettingsChallenge
 
  > This app demonstrates images used as buttons and a floating action button for
  > an intent to launch a second activity. The app lets a user tap an image to
@@ -90,6 +90,47 @@ DialogForAlert
  > icons in the app bar, and also includes the Up button.
 
  <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./DroidCafeWithSettingsChallenge/screenshot.gif" />
+
+### HelloCompat
+
+ > This app demonstrates the use of the ContextCompat class, part of the
+ > V4 support library.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./HelloCompat/screenshot.gif" />
+
+### HelloSharedPrefs
+
+ > HelloSharedPrefs is an adaptation of the HelloToast app from chapter 1.
+ > It includes:
+ > - Buttons for changing the background color.
+ > - Maintenance of instance state.
+ > - Themes and styles.
+ > - Read and write shared preferences for the current count and the color.
+ >
+ > This is the solution code for HelloSharedPrefs.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./HelloSharedPrefs/screenshot.gif" />
+
+### HelloToastChallenge2
+	- HelloToast
+	- HelloToastChallenge
+
+ > Displays two Buttons and a TextView.
+ > - Pressing the TOAST button shows a Toast.
+ > - Pressing the COUNT button increases the displayed mCount.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./HelloToastChallenge2/screenshot.gif" />
+
+### ImplicitIntents
+	- ImplicitIntentsReceiver
+
+ > The ImplicitIntents app contains three buttons for sending implicit intents:
+ > - Open a URL in a browser
+ > - Find a location on a map
+ > - Share a text string
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./ImplicitIntents/screenshot.gif" />
+
 
 
 
