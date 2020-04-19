@@ -5,6 +5,7 @@ I put Gif animation for each sample.
 Do not update Android Gradle plugin.
 
 Only *ContextMenuScrollingText* was an error:
+
 "No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android"
 
 To solve this problem:
@@ -12,7 +13,9 @@ To solve this problem:
    https://developer.android.com/ndk/downloads/older_releases
 - After unzipping that folder, copy mips64el-linux-android-4.9 and mipsel-linux-android-4.9 folders 
    to your local ndk-bundle toolchains directory like this example:
+   
    Source: ..\Downloads\android-ndk-r16b-windows-x86_64\android-ndk-r16b\toolchains
+   
    Destination: ..\\AppData\Local\Android\Sdk\ndk-bundle\toolchains
 
 Android Developer Fundamentals (Version 2)
