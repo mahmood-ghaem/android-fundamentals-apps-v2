@@ -1,3 +1,20 @@
+Run in Android Studio version 3.6.2
+==========================================
+I ran and tested all the samples in Android Studio 3.6.2.
+I put Gif animation for each sample.
+Do not update Android Gradle plugin.
+
+Only *ContextMenuScrollingText* was an error:
+"No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android"
+
+To solve this problem:
+- Download the previous NDK version(Android NDK, Revision 16b) from bellow link:
+   https://developer.android.com/ndk/downloads/older_releases
+- After unzipping that folder, copy mips64el-linux-android-4.9 and mipsel-linux-android-4.9 folders 
+   to your local ndk-bundle toolchains directory like this example:
+   Source: ..\Downloads\android-ndk-r16b-windows-x86_64\android-ndk-r16b\toolchains
+   Destination: ..\\AppData\Local\Android\Sdk\ndk-bundle\toolchains
+
 Android Developer Fundamentals (Version 2)
 ==========================================
 
@@ -176,37 +193,104 @@ Sample's Picture
 
 <img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./PhoneNumberSpinnerEspresso/screenshot.gif" />
 
-### 
-- 
-- 
+### PickerForDate
 
- > 
+ > App based on Empty Activity template that shows date picker when the user taps the button for Date.
+ > This app shows the date picker. The user taps Date to set the date in the date picker, and after changing the date and clicking OK, the main screen shows a Toast message with the date.
 
-<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./PickerForDate/screenshot.gif" />
 
-### 
-- 
-- 
+### PickerForTime
 
- > 
+ > App based on Empty Activity template that shows a time picker when the user taps the button for Time.
 
-<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./PickerForTime/screenshot.gif" />
 
-### 
-- 
-- 
+### PowerReceiver
 
- > 
+ > The PowerReceiver app uses a Broadcast Receiver to receive the system Broadcast Intent delivered when the device is connected and disconnected from power and displays a Toast message. It also delivers a custom Broadcast Intent and responds with another Toast message when the custom Broadcast is received.
 
-<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./PowerReceiver/screenshot.gif" />
 
-### 
-- 
-- 
+### RecyclerView
+- RecyclerViewEspresso
 
- > 
+ > Uses a RecyclerView to display data. Implements a custom adapter for the RecyclerView.
+ > This sample shows how to use a RecyclerView to display data using a custom adapter to manage the data and the views.
 
-<img height="400"  alt="Android Developer Fundamentals (Version 2)" src=".//screenshot.gif" />
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./RecyclerView/screenshot.gif" />
+
+### RoomWordsSample
+- RoomWordsWithDelete
+- RoomWordsWithUpdate
+
+ > This repository contains the finished sample code for the Architecture Components practical.
+ > In May 2017 Google released the Architecture Components libraries. Each library manages and simplifies aspects of data persistence and the UI component lifecycle. Together, the libraries encourage a modular app architecture that results in reduced complexity and less code.
+ > This sample shows how to use the libraries to build a complete basic app that implements the recommended architecture and can be used as a template for further explorations.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./RoomWordsWithUpdate/screenshot.gif" />
+
+### Scorekeeper
+- ScorekeeperEspresso
+
+ > The Scorekeeper app keeps score for any game involving two teams. The user can increment or decrement the score for each team using simple Button views.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./Scorekeeper/screenshot.gif" />
+
+### ScrollingText
+- ScrollingTextChallenge
+
+ > The Scrolling Text app demonstrates the ScrollView UI component.
+ > The app shows how to use a ScrollView to display text. The user can scroll vertically to read by swiping up and down. The app shows how you can use text formatted with minimal HTML tags for setting text to bold or italic, and with new-line characters to separate paragraphs. You can also include active web links in the text.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./ScrollingText/screenshot.gif" />
+
+### SimpleAsyncTask
+
+ > The SimpleAsyncTask app uses an AsyncTask that simulates doing work on a background thread by putting that thread to sleep for a random amount of time, and then displaying that time in the UI.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./SimpleAsyncTask/screenshot.gif" />
+
+### SimpleCalcTest
+
+ > SimpleCalcTests is a modification of SimpleCalc that uses unit tests to reveal potential issues.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./SimpleCalcTest/screenshot.gif" />
+
+### StandUp
+
+ > The Stand Up! Application uses the AlarmManager to schedule an inexact repeating alarm that delivers a notification to remind the user to stand up, approximately every fifteen minutes.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./StandUp/screenshot.gif" />
+
+### TabExperiment
+
+ > App that demonstrates how to build navigation with tabs and swipe views.
+ > This app created from the Empty Activity template shows tabs for navigation and displays different content (different fragments) for each tab.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./TabExperiment/screenshot.gif" />
+
+### TransitionsandAnimations 
+
+ > The Transitions and Animations app has 4 objects arranged in a grid. Each object launches a transition or animation when it is clicked. The animations are as follows: An explode animation, a fade animation, a rotation animation, and a shared element transition.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./TransitionsandAnimations/screenshot.gif" />
+
+### TwoActivities
+- TwoActivitiesEspresso
+- TwoActivitiesLifecycle
+
+ > The TwoActivities app contains two activities. It uses an explicit Intent to launch one Activity from another, and uses Intent extras to pass data between them.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./TwoActivities/screenshot.gif" />
+
+### WhoWroteIt
+- WhoWroteItLoader
+
+ > The WhoWroteIt? app uses an AsyncTask to query the Google Books API and display the result in a TextView.
+
+<img height="400"  alt="Android Developer Fundamentals (Version 2)" src="./WhoWroteIt/screenshot.gif" />
+
 
 
 
